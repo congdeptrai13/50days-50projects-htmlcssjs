@@ -13,12 +13,10 @@ function checkBtn() {
         prev.setAttribute("disabled", true);
     } else {
         prev.removeAttribute("disabled");
-        // next.removeAttribute("disabled");
     }
     if (value + 1 === parseInt(listProgress.length)) {
         next.setAttribute("disabled", true);
     } else {
-        // prev.removeAttribute("disabled");
         next.removeAttribute("disabled");
     }
 }
