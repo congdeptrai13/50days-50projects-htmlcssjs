@@ -1,0 +1,405 @@
+{
+    "files": [
+        950406,
+        950408,
+        950407,
+        950409,
+        950411,
+        950410,
+        950414,
+        950413,
+        950412,
+        950415,
+        950417,
+        950416,
+        950418,
+        950419
+    ],
+    "plan_id": 112756,
+    "question_answers": [
+        {
+            "content": {
+                "floors": [
+                    {
+                        "acreage": "20"
+                    }
+                ],
+                "total_acreage": 20
+            },
+            "answer_name": null,
+            "question_id": "1",
+            "question_code": "S1",
+            "question_name": "S1. Diện tích của khu vực bán hàng ở cửa hàng này bao nhiêu mét vuông?"
+        },
+        {
+            "answer_id": 5,
+            "answer_name": "Cửa hàng tạp hóa nhỏ (chỉ để vài hộp/vài block sữa)",
+            "question_id": "3",
+            "question_code": "S3",
+            "question_name": "S3. Loại hình cửa hàng?"
+        },
+        {
+            "answer_id": 9,
+            "answer_name": "Khu dân cư",
+            "question_id": "4",
+            "question_code": "S4",
+            "question_name": "S4. Điểm bán ở khu vực nào sau đây?"
+        },
+        {
+            "answer_id": 256,
+            "answer_name": "Không có Bảng Hiệu",
+            "question_id": "5",
+            "question_code": "S5",
+            "question_name": "S5. Bảng hiệu của cửa hàng tên công ty nào sau đây?"
+        },
+        {
+            "answer_id": 21,
+            "answer_name": "Có",
+            "question_id": "6",
+            "question_code": "S6A",
+            "question_name": "CH có bán bất kỳ Sản phẩm Sữa Tươi nào của Vinamilk không?"
+        },
+        {
+            "answer_id": 23,
+            "answer_name": "Có",
+            "question_id": "7",
+            "question_code": "C11",
+            "question_name": "Sữa tươi Tiệt Trùng Vinamilk 100% dạng hộp Có đường"
+        },
+        {
+            "answer_id": 25,
+            "answer_name": "Có",
+            "question_id": "8",
+            "question_code": "C12",
+            "question_name": "Sữa tươi Tiệt Trùng Vinamilk 100% dạng hộp Ít đường"
+        },
+        {
+            "answer_id": 28,
+            "answer_name": "Không",
+            "question_id": "9",
+            "question_code": "C13",
+            "question_name": "Sữa tươi Vinamilk dạng Bịch"
+        },
+        {
+            "answer_id": 30,
+            "answer_name": "Không",
+            "question_id": "10",
+            "question_code": "C14",
+            "question_name": "Sữa tươi Vinamilk Green Farm"
+        },
+        {
+            "answer_id": 32,
+            "answer_name": "Không",
+            "question_id": "11",
+            "question_code": "C198",
+            "question_name": "Có bán Sữa Tươi Vinamilk Khác với 4 loại trên"
+        },
+        {
+            "answer_id": 34,
+            "answer_name": "Không",
+            "question_id": "12",
+            "question_code": "E1",
+            "question_name": "CH có bán bất kỳ Sản phẩm Sữa Tươi nào của TH True Milk không?"
+        },
+        {
+            "answer_id": 40,
+            "answer_name": "Không",
+            "question_id": "15",
+            "question_code": "C111",
+            "question_name": "CH có bán bất kỳ Sản phẩm Sữa Tươi nào của Đà Lạt Milk không?"
+        },
+        {
+            "answer_id": 42,
+            "answer_name": "Không",
+            "question_id": "16",
+            "question_code": "C121",
+            "question_name": "CH có bán bất kỳ Sản phẩm Sữa Tươi nào của Mộc Châu không?"
+        },
+        {
+            "answer_id": 44,
+            "answer_name": "Không",
+            "question_id": "17",
+            "question_code": "C711",
+            "question_name": "CH có bán bất kỳ Sản phẩm Sữa Tươi nào của Kun không?"
+        },
+        {
+            "answer_id": 46,
+            "answer_name": "Không",
+            "question_id": "18",
+            "question_code": "C811",
+            "question_name": "CH có bán bất kỳ Sản phẩm Sữa Tươi nào của Nuti Milk không?"
+        },
+        {
+            "answer_id": 48,
+            "answer_name": "Không",
+            "question_id": "19",
+            "question_code": "C911",
+            "question_name": "CH có bán bất kỳ Sản phẩm Sữa Tươi nào của Dutch Lady (Cô Gái Hà Lan) không?"
+        },
+        {
+            "answer_id": 50,
+            "answer_name": "Không",
+            "question_id": "20",
+            "question_code": "S6B",
+            "question_name": "CH có bán bất kỳ Sản phẩm Sữa Chua Uống nào của Vinamilk không?"
+        },
+        {
+            "answer_id": 78,
+            "answer_name": "Không",
+            "question_id": "34",
+            "question_code": "S6C",
+            "question_name": "CH có bán bất kỳ Sản phẩm Sữa Chua Ăn nào của Vinamilk không?"
+        },
+        {
+            "answer_id": 90,
+            "answer_name": "Không",
+            "question_id": "40",
+            "question_code": "E4",
+            "question_name": "CH có bán bất kỳ Sản phẩm Sữa Chua Ăn nào của TH True Milk không?"
+        },
+        {
+            "answer_id": 98,
+            "answer_name": "Không",
+            "question_id": "44",
+            "question_code": "S6D",
+            "question_name": "CH có bán bất kỳ Sản phẩm Sữa Bột nào của Vinamilk không?"
+        },
+        {
+            "answer_id": 112,
+            "answer_name": "Không",
+            "question_id": "51",
+            "question_code": "E5",
+            "question_name": "CH có bán bất kỳ Sản phẩm Sữa Bột nào của Công ty khác không?"
+        },
+        {
+            "answer_id": 122,
+            "answer_name": "Không",
+            "question_id": "56",
+            "question_code": "S7",
+            "question_name": "S7. CH có vật dụng trưng bày (POSM) cho nhãn hàng Sữa nào không?"
+        },
+        {
+            "answer_id": 149,
+            "answer_name": "Không",
+            "question_id": "69",
+            "question_code": "E17",
+            "question_name": "S8. CH có vật dụng trưng bày (POSM) cho nhãn hàng Vinamilk không?"
+        },
+        {
+            "answer_id": 250,
+            "answer_name": "Không",
+            "question_id": "92",
+            "question_code": "S13",
+            "question_name": "S12. Anh/chị có vui lòng chia sẻ về chính sách hoa hồng/chiết khấu của các công ty sữa không?"
+        },
+        {
+            "answer_id": 259,
+            "answer_name": "Không",
+            "question_id": "98",
+            "question_code": "MK2",
+            "question_name": "SCU Vinamilk Probi"
+        },
+        {
+            "answer_id": 261,
+            "answer_name": "Không",
+            "question_id": "99",
+            "question_code": "MK3",
+            "question_name": "SCU Vinamilk Susu"
+        },
+        {
+            "answer_id": 263,
+            "answer_name": "Không",
+            "question_id": "100",
+            "question_code": "MK4",
+            "question_name": "SCU lên men Yakult"
+        },
+        {
+            "answer_id": 265,
+            "answer_name": "Không",
+            "question_id": "101",
+            "question_code": "MK5",
+            "question_name": "SCU men sống Betagen"
+        },
+        {
+            "answer_id": 267,
+            "answer_name": "Không",
+            "question_id": "102",
+            "question_code": "MK6",
+            "question_name": "SCU TH Yogurt không TOPKID"
+        },
+        {
+            "answer_id": 269,
+            "answer_name": "Không",
+            "question_id": "103",
+            "question_code": "MK7",
+            "question_name": "SCU TH Yogurt Topkid"
+        },
+        {
+            "answer_id": 271,
+            "answer_name": "Không",
+            "question_id": "104",
+            "question_code": "MK8",
+            "question_name": "SCU TH True Yogurt Probiotics"
+        },
+        {
+            "answer_id": 272,
+            "answer_name": "Có",
+            "question_id": "105",
+            "question_code": "MK9",
+            "question_name": "SCU LIF KUN (công ty IDP)"
+        },
+        {
+            "answer_id": 275,
+            "answer_name": "Không",
+            "question_id": "106",
+            "question_code": "MK10",
+            "question_name": "SCU NUVI (công ty Nuti Milk)"
+        },
+        {
+            "content": "21000",
+            "answer_name": null,
+            "question_id": "125",
+            "question_code": "MK29",
+            "question_name": "SCU LIF KUN (công ty IDP)"
+        },
+        {
+            "answer_id": 351,
+            "answer_name": "Giữ Nguyên",
+            "question_id": "145",
+            "question_code": "MK49",
+            "question_name": "SCU LIF KUN (công ty IDP)"
+        },
+        {
+            "content": "0",
+            "answer_name": null,
+            "question_id": "155",
+            "question_code": "MK59",
+            "question_name": "SCU LIF KUN (công ty IDP)"
+        },
+        {
+            "answer_id": 373,
+            "answer_name": "1.SP có vị ngon",
+            "question_id": "165",
+            "question_code": "MK69",
+            "question_name": "SCU LIF KUN (công ty IDP)"
+        },
+        {
+            "content": "0",
+            "answer_name": null,
+            "question_id": "168",
+            "question_code": "MK72",
+            "question_name": "Vinamilk"
+        },
+        {
+            "content": "0",
+            "answer_name": null,
+            "question_id": "169",
+            "question_code": "MK73",
+            "question_name": "TH Truemilk"
+        },
+        {
+            "content": "0",
+            "answer_name": null,
+            "question_id": "170",
+            "question_code": "MK74",
+            "question_name": "Nutimilk (Nutifood)"
+        },
+        {
+            "content": "0",
+            "answer_name": null,
+            "question_id": "193",
+            "question_code": "MK96",
+            "question_name": "Thùng"
+        },
+        {
+            "answer_name": null,
+            "question_id": "194",
+            "question_code": "MK97",
+            "question_name": "Lốc"
+        },
+        {
+            "answer_id": 479,
+            "answer_name": "Không",
+            "question_id": "199",
+            "question_code": "MK102",
+            "question_name": "CH có bán bất kỳ sản phẩm Sữa Đặc nào của Vinamilk không?"
+        },
+        {
+            "answer_id": 487,
+            "answer_name": "Không",
+            "question_id": "203",
+            "question_code": "MK106",
+            "question_name": "CH có bán bất kỳ sản phẩm Sữa Đặc nào của Công ty khác không?"
+        },
+        {
+            "answer_id": 498,
+            "answer_name": "Cửa hàng đồng ý trả lời",
+            "question_id": "209",
+            "question_code": "MK112",
+            "question_name": "Q13. Anh/Chị có thể vui lòng chia sẻ về Mức doanh số bán hàng Sữa chua uống được không ạ?"
+        },
+        {
+            "answer_id": 2,
+            "answer_name": "Từ 10m2 - 30m2",
+            "question_id": 2,
+            "question_code": "S2",
+            "question_name": "S2. Phân loại cửa hàng theo diện tích?"
+        },
+        {
+            "answer_id": 60,
+            "answer_name": "Không",
+            "question_id": "25",
+            "question_code": "E2",
+            "question_name": "CH có bán bất kỳ Sản phẩm Sữa Chua Uống nào của TH True Milk không?"
+        },
+        {
+            "answer_id": 67,
+            "answer_name": "Có",
+            "question_id": "29",
+            "question_code": "E3",
+            "question_name": "CH có bán bất kỳ Sản phẩm Sữa Chua Uống nào của Công ty khác không?"
+        },
+        {
+            "answer_id": 70,
+            "answer_name": "Không",
+            "question_id": "30",
+            "question_code": "D151",
+            "question_name": "Sữa chua uống lên men Yakult"
+        },
+        {
+            "answer_id": 72,
+            "answer_name": "Không",
+            "question_id": "31",
+            "question_code": "D161",
+            "question_name": "Sữa chua uống Men sống Betagen"
+        },
+        {
+            "answer_id": 73,
+            "answer_name": "Có",
+            "question_id": "32",
+            "question_code": "D171",
+            "question_name": "Sữa chua uống LIF KUN (công ty IDP)"
+        },
+        {
+            "answer_id": 76,
+            "answer_name": "Không",
+            "question_id": "33",
+            "question_code": "D181",
+            "question_name": "Sữa chua uống NUTI (công ty Nuti Milk)"
+        },
+        {
+            "content": "0",
+            "answer_name": null,
+            "question_id": "195",
+            "question_code": "MK98",
+            "question_name": "Quy đổi (Lốc)"
+        },
+        {
+            "content": 0,
+            "answer_name": null,
+            "question_id": "135",
+            "question_code": "MK39",
+            "question_name": "SCU LIF KUN (công ty IDP)"
+        }
+    ]
+}
