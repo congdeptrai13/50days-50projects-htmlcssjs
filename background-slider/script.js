@@ -15,7 +15,6 @@ leftBtn.addEventListener('click', function () {
     setActive();
 })
 
-console.log(sliders.length);
 
 rightBtn.addEventListener('click', function () {
 
