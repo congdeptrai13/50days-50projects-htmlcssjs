@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Seaweed+Script&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: #ecf0f1;
+}
+
+.card {
+    width: 350px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cardHeader img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cardContent {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.subTitle {
+    color: #777777;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.cardFooter {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cardFooter .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.contentFooter p {
+    margin: 0;
+}
+
+.contentFooter .name {
+    font-weight: bold;
+}
+
+.contentFooter .date {
+    margin-top: 5px;
+    color: #777777;
+    font-size: 12px;
+}
+
+.animated {
+    position: relative;
+}
+
+.animated .animated-bg {
+    background-image: linear-gradient(to right,
+            #f6f7f8 0%,
+            #edeef1 10%,
+            #f6f7f8 20%,
+            #f6f7f8 100%);
+    background-size: 200% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    animation: bgPos 1s linear infinite;
+}
+
+.animated-text {
+    border-radius: 50px;
+    /* background-color: #777777; */
+    display: inline-block;
+    margin: 0;
+    height: 10px;
+    width: 100%;
+    animation: bgPos 1s linear infinite;
+}
+
+
+@keyframes bgPos {
+    0% {
+        background-position: 50% 0;
+    }
+
+    100% {
+        background-position: -150%;
+    }
+}

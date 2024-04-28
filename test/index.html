@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Processing Client</title>
+    <script>
+        function processText() {
+            var text = document.getElementById("textInput").value;
+
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "http://localhost:8888", true);
+            xhr.setRequestHeader("Content-Type", "text/plain");
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    var result = xhr.responseText;
+                    document.getElementById("result").innerText = result;
+                }
+            };
+            xhr.send(text);
+        }
+    </script>
+</head>
+<body>
+    <textarea id="textInput" rows="5" cols="50" placeholder="Enter text..."></textarea><br>
+    <button onclick="processText()">Process Text</button><br>
+    <div id="result"></div>
+</body>
+</html>
