@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Seaweed+Script&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    max-width: 768px;
+    background-color: #476ce4;
+    color: #fff;
+    padding: 50px 80px;
+    position: relative;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+
+.fas {
+    position: absolute;
+    top: 80px;
+}
+
+.fa-quote-right {
+    right: 40px;
+}
+
+.fa-quote-left {
+    left: 40px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testmonial {
+    margin: 16px 0;
+    text-align: center;
+}
+
+.user img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.content {
+    margin-left: 10px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.role {
+    margin: 5px 0;
+}
+
+.bar-progress {
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    transform-origin: left;
+    animation: grow 10s linear infinite;
+}
+
+@keyframes grow {
+    0% {
+        transform: scaleX(0);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+}
