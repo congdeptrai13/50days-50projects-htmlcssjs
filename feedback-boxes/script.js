@@ -31,6 +31,4 @@ btnEle.addEventListener('click', function () {
     paraEle.innerText = "We'll use your feedback to improve our customer support";
     panelEle.appendChild(fbEle);
     panelEle.appendChild(paraEle);
-
-
 })
