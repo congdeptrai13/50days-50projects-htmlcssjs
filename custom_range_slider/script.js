@@ -6,7 +6,7 @@ rangeEle.addEventListener('input', function (e) {
     let labelWidth = rangeField.clientWidth;
     let min = e.target.min;
     let max = e.target.max;
-    let left = scale(e.target.value, min, max, 0, inputWidth) - 40;
+    let left = scale(e.target.value, min, max, 0, inputWidth) - labelWidth / 2;
     rangeField.style.left = `${left}px`;
 })
 
