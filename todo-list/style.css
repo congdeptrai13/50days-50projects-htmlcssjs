@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Seaweed+Script&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    /* overflow: hidden; */
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    font-size: 5rem;
+    color: pink;
+    letter-spacing: 2;
+}
+
+input {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    max-width: 300px;
+    font-size: 22px;
+    margin-bottom: 2px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.list-todo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 300px;
+}
+
+.todo {
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.todo.finished {
+    text-decoration: line-through;
+    color: #333;
+}
+
+small{
+    color: #ccc;
+    text-align: center;
+    margin-top: 50px;
+}
