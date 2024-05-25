@@ -10,7 +10,6 @@ toggles.forEach(toggle => {
 })
 
 function handleTrick(currentCheck) {
-    console.log(good);
     if (good.checked && cheap.checked && fast.checked) {
         if(good === currentCheck){
             fast.checked = false;
