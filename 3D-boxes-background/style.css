@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Seaweed+Script&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+}
+
+.boxes.big {
+    width: 600px;
+    height: 600px;
+}
+
+.box {
+    width: 125px;
+    height: 125px;
+    background-image: url('https://media.giphy.com/media/EZqwsBSPlvSda/giphy.gif');
+    background-size: 500px 500px;
+    position: relative;
+    transition: all .3s;
+}
+
+.boxes.big .box{
+    transform: rotate(360deg);
+}
+.boxes.big .box::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 100%;
+    background-color: #f9ca24;
+    z-index: -1;
+    width: 15px;
+    height: 100%;
+}
+
+.boxes.big .box::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 15px;
+    background-color: #f9ca24;
+    z-index: -1;
+    width: 100%;
+    height: 15px;
+}
+
+
+.btn-change {
+    margin: 20px 0;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #f9ca24;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 22px;
+    box-shadow: 0 3px rgba(249, 202, 36, 0.5);
+    cursor: pointer;
+}
+
+.btn-change:active{
+    transform: translateY(2px);
+}
